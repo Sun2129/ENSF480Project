@@ -10,4 +10,4 @@ Managers: A manager is able to view all of the registered renters, landlords, an
 
 This system was implemented in Java, it uses Java GUI, and uses a MySQL database to store information. The files in the system are managed, compiled, and executed using Maven. Lastly, it uses common design patterns, such as the MVC pattern and the Singleton pattern, to allow for the system to be easily changeable, scalable, and maintainable in the future.
 
-To use the system, first import the SQL file to have the appropriate database for this project. Secondly, with Maven installed, run the command mvn package to install the appropriate dependencies and compile the program. Lastly, run the command mvn exec:java to run the program. 
+To use the system, first import the SQL file to have the appropriate database for this project. Secondly, insert the appropriate database username and password, where the SQL file was installed, into the DatabaseConfig.java file. Thirdly, with Maven installed, run the command mvn package to install the appropriate dependencies and compile the program. Lastly, run the command mvn exec:java to run the program. 
